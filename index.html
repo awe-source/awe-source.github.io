@@ -18,9 +18,16 @@
             padding: 20px;
             text-align: center;
             color: white;
+            position: relative;
         }
         header h1 {
             margin: 0;
+        }
+        header img {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            height: 50px;
         }
         main {
             padding: 20px;
@@ -36,10 +43,23 @@
             background-color: #4CAF50;
             color: white;
         }
+        .github-link {
+            display: inline-block;
+            margin-top: 10px;
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .github-link:hover {
+            background-color: #555;
+        }
     </style>
 </head>
 <body>
     <header>
+        <img src="https://awesrc.com.au/images/logo.png" alt="awe-source logo">
         <h1>Welcome to Awe-source</h1>
         <p>Innovative software and hardware solutions for real-life challenges</p>
     </header>
@@ -52,18 +72,40 @@
 
         <section>
             <h2>Our Work</h2>
-            <p>We have developed a variety of products, including:</p>
+            <p>We have developed a variety of products across different industries:</p>
+
+            <h3>Pet Products:</h3>
             <ul>
-                <li><strong>Pet Products:</strong> Making life easier for pet owners.</li>
-                <li><strong>Transport Safety Products:</strong> Solutions for safer travel.</li>
-                <li><strong>Education Tools:</strong> Helping students and teachers use technology effectively.</li>
-                <li><strong>Health Products:</strong> Innovating in the medical and wellness space.</li>
+                <li><strong><a href="https://awesrc.com.au/houndhalo" target="_blank">Hound Halo</a></strong> - A one-size-fits-all invention that holds the leash up so your dog’s neck, legs, and other dogs don’t get tangled up.</li>
+                <li><strong>Poopinator9000</strong> - A doggy-doo-doo scooper that uses less plastic and makes scooping poop easier and cleaner than ever!</li>
+            </ul>
+
+            <h3>Vehicle Safety:</h3>
+            <ul>
+                <li><strong>TailFeathers</strong> - An advanced tailgating sensor that removes guesswork and makes driving safer.</li>
+                <li><strong>EVASion</strong> - Enhanced Vehicle Awareness System designed to make electric vehicles safer for everyone, especially those with hearing, visual, or cognitive challenges.</li>
+            </ul>
+
+            <h3>Home Automation/Monitoring:</h3>
+            <ul>
+                <li><strong>Homer</strong> - An intelligent home monitoring and automation system that goes beyond the ordinary. It learns how you live and helps manage your home by monitoring water use, ensuring appliances are off when you leave, and more. "Homer, help me lower my water bills? Sure thing!"</li>
+            </ul>
+
+            <h3>Education:</h3>
+            <ul>
+                <li><strong>Data Explorer</strong> - A data visualization tool that functions like flashcards on steroids! Teachers and students can explore complex datasets visually and intuitively, developed in collaboration with educators to improve learning experiences for visual learners.</li>
+            </ul>
+
+            <h3>Lifestyle:</h3>
+            <ul>
+                <li><strong>Shoptimiser</strong> - Streamline your shopping trips, save time, and forget nothing. This app helps you map your items to specific shops and reorders your list based on the layout of the store.</li>
             </ul>
         </section>
 
         <section>
             <h2>Our Code Repositories</h2>
             <p>At Awe-source, many of our code repositories are free and open-source, where we collaborate with others to develop solutions. We're passionate about sharing our work with the community, and we welcome contributions from anyone who shares our vision.</p>
+            <a href="https://github.com/awe-source" class="github-link">Visit Our GitHub Repositories</a>
         </section>
 
         <section>
